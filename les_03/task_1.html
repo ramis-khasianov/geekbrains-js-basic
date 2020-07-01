@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Task 1</title>
+</head>
+<body>
+    <script>
+
+        var x = 2;
+
+        function checkPrime(num){
+            var i = 2;
+            while(i < num){
+                if(num % i == 0){
+                    return false
+                }
+
+            i += 1
+            }
+            return true
+        }
+
+        while(x <= 100){
+            if(checkPrime(x)){
+                console.log(x)
+            }
+            x += 1;
+        }
+
+
+
+    </script>
+</body>
+</html>
